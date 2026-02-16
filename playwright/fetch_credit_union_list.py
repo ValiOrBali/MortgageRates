@@ -1,0 +1,43 @@
+import asyncio
+import argparse
+import sys
+from playwright.async_api import async_playwright
+
+async def fetch_credit_union_options(url: str) -> str | None:
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
+        try:
+            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            # Wait for a <select> element or similar to be present
+            await page.wait_for_selector('select[name="siteId"]', timeout=30000) # Assuming a select with name "siteId"
+            
+            # Extract all option tags within the relevant select element
+            # This is a bit more robust than text parsing from shell script
+            options = await page.eval_on_selector_all('select[name="siteId"] option', 'elements => elements.map(el => ({ value: el.value, text: el.textContent }))')
+
+            # Format the output similar to the original shell script's echo for easier parsing later
+            formatted_output = []
+            for option in options:
+                if option['value'] and option['value'] != '0': # Ignore empty or default options
+                    # Replicate the cleaning from the shell script's union_name
+                    union_name = option['text'].strip()
+                    union_name = union_name.replace('-', '').replace(',', '').replace('.', '').replace("'", '').replace('\r', '')
+                    formatted_output.append(f"{option['value']}>{union_name}")
+            
+            return "\n".join(formatted_output)
+
+        except Exception as e:
+            print(f"[Playwright-ListFetcher] Error fetching or parsing {url}: {e}", file=sys.stderr)
+            return None
+        finally:
+            await browser.close()
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Fetch credit union options using Playwright")
+    parser.add_argument("url", help="The URL to fetch")
+    args = parser.parse_args()
+    
+    output = asyncio.run(fetch_credit_union_options(args.url))
+    if output:
+        print(output)
