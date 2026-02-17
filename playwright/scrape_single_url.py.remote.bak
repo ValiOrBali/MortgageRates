@@ -9,20 +9,7 @@ async def scrape_single_url(credit_union: str, url: str) -> dict:
     result = {'credit_union': credit_union, 'link': url, 'rates_30_years': "None", 'best_rate': "None", 'status': "ERROR", 'error_message': "Unknown error"}
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-setuid-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-gpu",
-                "--disable-software-rasterizer",
-                "--disable-crash-reporter",
-                "--disable-extensions",
-                "--single-process",
-                "--no-zygote"
-            ]
-        )
+        browser = await p.chromium.connect(ws_endpoint="ws://localhost:4000/")
         page = await browser.new_page()
         try:
             print(f"[Playwright] Navigating to {url}", file=sys.stderr)

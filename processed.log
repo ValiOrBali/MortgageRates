@@ -705,3 +705,241 @@
 [2026-02-16 22:56:06] Scraping complete. Results saved to mortgage_rates.csv - INFO
 [2026-02-16 22:56:06] Converting CSV to HTML... - INFO
 [2026-02-16 22:56:06] CSV to HTML conversion complete. - SUCCESS
+[2026-02-16 23:30:58] Starting to fetch credit union list... - INFO
+[2026-02-16 23:31:00] Fetched 123 unique credit unions. - INFO
+[2026-02-16 23:31:00] Scraping data for ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-16 23:31:00] Running scrape_single_url.py for ACT 1st Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-16 23:31:07] Successfully scraped and processed ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - SUCCESS
+[2026-02-16 23:31:07] Scraping data for Advantage Financial Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - INFO
+[2026-02-16 23:31:07] Running scrape_single_url.py for Advantage Financial Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - INFO
+[2026-02-16 23:31:43] Successfully scraped and processed Advantage Financial Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - SUCCESS
+[2026-02-16 23:31:43] Scraping data for AFLCIO Employees Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C1F6DBB4-762D-4B27-9741-459D6025E2B2 - INFO
+[2026-02-16 23:31:43] Running scrape_single_url.py for AFLCIO Employees Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C1F6DBB4-762D-4B27-9741-459D6025E2B2 - INFO
+[2026-02-16 23:32:19] Successfully scraped and processed AFLCIO Employees Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C1F6DBB4-762D-4B27-9741-459D6025E2B2 - SUCCESS
+[2026-02-16 23:32:19] Scraping data for Agriculture Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=6E5CC923-F933-40CA-B1B0-A20A68D95F94 - INFO
+[2026-02-16 23:32:19] Running scrape_single_url.py for Agriculture Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=6E5CC923-F933-40CA-B1B0-A20A68D95F94 - INFO
+[2026-02-16 23:32:55] Successfully scraped and processed Agriculture Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=6E5CC923-F933-40CA-B1B0-A20A68D95F94 - SUCCESS
+[2026-02-16 23:32:55] Scraping data for American Partners Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=35C5411C-7A2C-4B22-BD97-02FC6D8A5BCE - INFO
+[2026-02-16 23:32:55] Running scrape_single_url.py for American Partners Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=35C5411C-7A2C-4B22-BD97-02FC6D8A5BCE - INFO
+[2026-02-16 23:32:59] Successfully scraped and processed American Partners Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=35C5411C-7A2C-4B22-BD97-02FC6D8A5BCE - SUCCESS
+[2026-02-16 23:32:59] Scraping data for Andrews Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=62164F8D-49F1-47B5-895E-4C4F7558EF83 - INFO
+[2026-02-16 23:32:59] Running scrape_single_url.py for Andrews Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=62164F8D-49F1-47B5-895E-4C4F7558EF83 - INFO
+[2026-02-16 23:33:35] Successfully scraped and processed Andrews Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=62164F8D-49F1-47B5-895E-4C4F7558EF83 - SUCCESS
+[2026-02-16 23:33:35] Scraping data for APCI Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F4E0E245-3E84-414B-82ED-D879425EE640 - INFO
+[2026-02-16 23:33:35] Running scrape_single_url.py for APCI Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F4E0E245-3E84-414B-82ED-D879425EE640 - INFO
+[2026-02-16 23:33:45] Successfully scraped and processed APCI Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F4E0E245-3E84-414B-82ED-D879425EE640 - SUCCESS
+[2026-02-16 23:33:45] Scraping data for APL Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C9796FA5-9A5E-4F21-824D-F88F5CF17F28 - INFO
+[2026-02-16 23:33:45] Running scrape_single_url.py for APL Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C9796FA5-9A5E-4F21-824D-F88F5CF17F28 - INFO
+[2026-02-16 23:33:51] Successfully scraped and processed APL Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C9796FA5-9A5E-4F21-824D-F88F5CF17F28 - SUCCESS
+[2026-02-16 23:33:51] Scraping data for APL Federal Credit Union Home Equity for https://mortgages.cumortgage.net/default.asp?siteId=432AF8BF-268B-4EE9-985E-849DC58D73EF - INFO
+[2026-02-16 23:33:51] Running scrape_single_url.py for APL Federal Credit Union Home Equity via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=432AF8BF-268B-4EE9-985E-849DC58D73EF - INFO
+[2026-02-16 23:33:58] Successfully scraped and processed APL Federal Credit Union Home Equity for https://mortgages.cumortgage.net/default.asp?siteId=432AF8BF-268B-4EE9-985E-849DC58D73EF - SUCCESS
+[2026-02-16 23:33:58] Scraping data for Apple Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3A1B0044-C042-4C1D-ADC6-984B4E4AE66E - INFO
+[2026-02-16 23:33:58] Running scrape_single_url.py for Apple Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=3A1B0044-C042-4C1D-ADC6-984B4E4AE66E - INFO
+[2026-02-16 23:34:36] Successfully scraped and processed Apple Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3A1B0044-C042-4C1D-ADC6-984B4E4AE66E - SUCCESS
+[2026-02-16 23:34:36] Scraping data for Arlington Community Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=EFE2F354-28CC-4C97-9690-04B28CE15AD7 - INFO
+[2026-02-16 23:34:36] Running scrape_single_url.py for Arlington Community Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=EFE2F354-28CC-4C97-9690-04B28CE15AD7 - INFO
+[2026-02-16 23:34:43] Successfully scraped and processed Arlington Community Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=EFE2F354-28CC-4C97-9690-04B28CE15AD7 - SUCCESS
+[2026-02-16 23:34:43] Scraping data for Autotruck Financial Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7FC4327-2340-45D1-AF41-4127E7EB9BEA - INFO
+[2026-02-16 23:34:43] Running scrape_single_url.py for Autotruck Financial Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=A7FC4327-2340-45D1-AF41-4127E7EB9BEA - INFO
+[2026-02-16 23:35:18] Successfully scraped and processed Autotruck Financial Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7FC4327-2340-45D1-AF41-4127E7EB9BEA - SUCCESS
+[2026-02-16 23:35:18] Scraping data for Beach Municipal Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=254A10C8-8BC6-48BE-B89D-C1ADA101EB65 - INFO
+[2026-02-16 23:35:18] Running scrape_single_url.py for Beach Municipal Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=254A10C8-8BC6-48BE-B89D-C1ADA101EB65 - INFO
+[2026-02-16 23:35:58] Successfully scraped and processed Beach Municipal Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=254A10C8-8BC6-48BE-B89D-C1ADA101EB65 - SUCCESS
+[2026-02-16 23:35:58] Scraping data for Blackstone River Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=70B8287F-21B7-4EA5-B48B-0F21609154B5 - INFO
+[2026-02-16 23:35:58] Running scrape_single_url.py for Blackstone River Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=70B8287F-21B7-4EA5-B48B-0F21609154B5 - INFO
+[2026-02-16 23:36:37] Successfully scraped and processed Blackstone River Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=70B8287F-21B7-4EA5-B48B-0F21609154B5 - SUCCESS
+[2026-02-16 23:36:37] Scraping data for Bragg Mutual Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=61976FE1-B5E2-4F2A-A159-9385FC8A3A2A - INFO
+[2026-02-16 23:36:37] Running scrape_single_url.py for Bragg Mutual Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=61976FE1-B5E2-4F2A-A159-9385FC8A3A2A - INFO
+[2026-02-16 23:36:46] Successfully scraped and processed Bragg Mutual Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=61976FE1-B5E2-4F2A-A159-9385FC8A3A2A - SUCCESS
+[2026-02-16 23:36:46] Scraping data for BrownForman Employees Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=6CC9B22B-FD9B-47BB-BF8C-98123B2BA5BD - INFO
+[2026-02-16 23:36:46] Running scrape_single_url.py for BrownForman Employees Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=6CC9B22B-FD9B-47BB-BF8C-98123B2BA5BD - INFO
+[2026-02-16 23:36:55] Successfully scraped and processed BrownForman Employees Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=6CC9B22B-FD9B-47BB-BF8C-98123B2BA5BD - SUCCESS
+[2026-02-16 23:36:55] Scraping data for Canandaigua Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=BA4B8C2F-8B87-4326-B309-19B7801636EE - INFO
+[2026-02-16 23:36:55] Running scrape_single_url.py for Canandaigua Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=BA4B8C2F-8B87-4326-B309-19B7801636EE - INFO
+[2026-02-16 23:37:02] Successfully scraped and processed Canandaigua Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=BA4B8C2F-8B87-4326-B309-19B7801636EE - SUCCESS
+[2026-02-16 23:37:02] Scraping data for Census Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=652FCC4F-51F6-4674-92E7-D6C19F1EFC02 - INFO
+[2026-02-16 23:37:02] Running scrape_single_url.py for Census Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=652FCC4F-51F6-4674-92E7-D6C19F1EFC02 - INFO
+[2026-02-16 23:37:10] Successfully scraped and processed Census Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=652FCC4F-51F6-4674-92E7-D6C19F1EFC02 - SUCCESS
+[2026-02-16 23:37:10] Scraping data for Chessie Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=B7F133AA-1CD3-4152-849C-9A4B370F9A98 - INFO
+[2026-02-16 23:37:10] Running scrape_single_url.py for Chessie Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=B7F133AA-1CD3-4152-849C-9A4B370F9A98 - INFO
+[2026-02-16 23:37:46] Successfully scraped and processed Chessie Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=B7F133AA-1CD3-4152-849C-9A4B370F9A98 - SUCCESS
+[2026-02-16 23:37:46] Scraping data for Civic FCU Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=2A907B66-4776-41AA-9272-79894AB26397 - INFO
+[2026-02-16 23:37:46] Running scrape_single_url.py for Civic FCU Employees Only via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=2A907B66-4776-41AA-9272-79894AB26397 - INFO
+[2026-02-16 23:37:53] Successfully scraped and processed Civic FCU Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=2A907B66-4776-41AA-9272-79894AB26397 - SUCCESS
+[2026-02-16 23:37:53] Reached max_scrapes_per_run limit of 20. Pausing for 2 minutes... - INFO
+[2026-02-16 23:39:53] Resuming scraping after pause. - INFO
+[2026-02-16 23:39:53] Scraping data for Civic Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=4087C423-821C-451F-92DD-EE5E931B7E99 - INFO
+[2026-02-16 23:39:53] Running scrape_single_url.py for Civic Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=4087C423-821C-451F-92DD-EE5E931B7E99 - INFO
+[2026-02-16 23:40:02] Successfully scraped and processed Civic Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=4087C423-821C-451F-92DD-EE5E931B7E99 - SUCCESS
+[2026-02-16 23:40:02] Scraping data for Credit Union Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=9D872503-B0A8-4552-9749-425F3197E743 - INFO
+[2026-02-16 23:40:02] Running scrape_single_url.py for Credit Union Employees Only via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=9D872503-B0A8-4552-9749-425F3197E743 - INFO
+[2026-02-16 23:40:09] Successfully scraped and processed Credit Union Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=9D872503-B0A8-4552-9749-425F3197E743 - SUCCESS
+[2026-02-16 23:40:09] Scraping data for Credit Union Mortgage for https://mortgages.cumortgage.net/default.asp?siteId=2B8C95D8-7B93-4949-BF83-DBAD2514C6CB - INFO
+[2026-02-16 23:40:09] Running scrape_single_url.py for Credit Union Mortgage via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=2B8C95D8-7B93-4949-BF83-DBAD2514C6CB - INFO
+[2026-02-16 23:40:17] Successfully scraped and processed Credit Union Mortgage for https://mortgages.cumortgage.net/default.asp?siteId=2B8C95D8-7B93-4949-BF83-DBAD2514C6CB - SUCCESS
+[2026-02-16 23:40:17] Scraping data for Credit Union Mortgage  Retail for https://mortgages.cumortgage.net/default.asp?siteId=C0914E58-C400-4F9B-B78C-C41C5A04E17A - INFO
+[2026-02-16 23:40:17] Running scrape_single_url.py for Credit Union Mortgage  Retail via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C0914E58-C400-4F9B-B78C-C41C5A04E17A - INFO
+[2026-02-16 23:40:26] Successfully scraped and processed Credit Union Mortgage  Retail for https://mortgages.cumortgage.net/default.asp?siteId=C0914E58-C400-4F9B-B78C-C41C5A04E17A - SUCCESS
+[2026-02-16 23:40:26] Scraping data for CUMA Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=0FB50884-39D7-4F58-B428-F48302A5DBC2 - INFO
+[2026-02-16 23:40:26] Running scrape_single_url.py for CUMA Employees Only via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=0FB50884-39D7-4F58-B428-F48302A5DBC2 - INFO
+[2026-02-16 23:40:35] Successfully scraped and processed CUMA Employees Only for https://mortgages.cumortgage.net/default.asp?siteId=0FB50884-39D7-4F58-B428-F48302A5DBC2 - SUCCESS
+[2026-02-16 23:40:35] Scraping data for CUMALSI for https://mortgages.cumortgage.net/default.asp?siteId=E415A428-4A9A-4C53-B75A-3B14E5C117C0 - INFO
+[2026-02-16 23:40:35] Running scrape_single_url.py for CUMALSI via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=E415A428-4A9A-4C53-B75A-3B14E5C117C0 - INFO
+[2026-02-16 23:41:14] Successfully scraped and processed CUMALSI for https://mortgages.cumortgage.net/default.asp?siteId=E415A428-4A9A-4C53-B75A-3B14E5C117C0 - SUCCESS
+[2026-02-16 23:41:14] Scraping data for Dakota Plains Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=24913549-04D0-4A65-8FA8-FD788A533FC4 - INFO
+[2026-02-16 23:41:14] Running scrape_single_url.py for Dakota Plains Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=24913549-04D0-4A65-8FA8-FD788A533FC4 - INFO
+[2026-02-16 23:41:51] Successfully scraped and processed Dakota Plains Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=24913549-04D0-4A65-8FA8-FD788A533FC4 - SUCCESS
+[2026-02-16 23:41:51] Scraping data for DC Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=AA35CE55-E768-48F1-A3CD-9407521E7CA6 - INFO
+[2026-02-16 23:41:51] Running scrape_single_url.py for DC Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=AA35CE55-E768-48F1-A3CD-9407521E7CA6 - INFO
+[2026-02-16 23:42:29] Successfully scraped and processed DC Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=AA35CE55-E768-48F1-A3CD-9407521E7CA6 - SUCCESS
+[2026-02-16 23:42:29] Scraping data for Democracy Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=671706E8-76E9-45CB-AC00-DB9F7A50FD77 - INFO
+[2026-02-16 23:42:29] Running scrape_single_url.py for Democracy Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=671706E8-76E9-45CB-AC00-DB9F7A50FD77 - INFO
+[2026-02-16 23:43:07] Successfully scraped and processed Democracy Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=671706E8-76E9-45CB-AC00-DB9F7A50FD77 - SUCCESS
+[2026-02-16 23:43:07] Scraping data for Destinations Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7476438-8CE5-4015-A01E-5A027FA6957D - INFO
+[2026-02-16 23:43:07] Running scrape_single_url.py for Destinations Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=A7476438-8CE5-4015-A01E-5A027FA6957D - INFO
+[2026-02-16 23:43:45] Successfully scraped and processed Destinations Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7476438-8CE5-4015-A01E-5A027FA6957D - SUCCESS
+[2026-02-16 23:43:45] Scraping data for EP Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F5855795-99A7-4FFC-8B96-7408D2340B5E - INFO
+[2026-02-16 23:43:45] Running scrape_single_url.py for EP Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F5855795-99A7-4FFC-8B96-7408D2340B5E - INFO
+[2026-02-16 23:44:24] Successfully scraped and processed EP Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F5855795-99A7-4FFC-8B96-7408D2340B5E - SUCCESS
+[2026-02-16 23:44:24] Scraping data for F R B Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=762E3A02-114D-48C2-95E3-2069380F6125 - INFO
+[2026-02-16 23:44:24] Running scrape_single_url.py for F R B Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=762E3A02-114D-48C2-95E3-2069380F6125 - INFO
+[2026-02-16 23:45:07] Successfully scraped and processed F R B Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=762E3A02-114D-48C2-95E3-2069380F6125 - SUCCESS
+[2026-02-16 23:45:07] Scraping data for FAA Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=0B09E938-2D30-4482-87C4-F0B636AB737D - INFO
+[2026-02-16 23:45:07] Running scrape_single_url.py for FAA Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=0B09E938-2D30-4482-87C4-F0B636AB737D - INFO
+[2026-02-16 23:45:46] Successfully scraped and processed FAA Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=0B09E938-2D30-4482-87C4-F0B636AB737D - SUCCESS
+[2026-02-16 23:45:46] Scraping data for FedChoice Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=493F19CB-9B4C-4F01-8807-241987166E35 - INFO
+[2026-02-16 23:45:46] Running scrape_single_url.py for FedChoice Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=493F19CB-9B4C-4F01-8807-241987166E35 - INFO
+[2026-02-16 23:45:53] Successfully scraped and processed FedChoice Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=493F19CB-9B4C-4F01-8807-241987166E35 - SUCCESS
+[2026-02-16 23:45:53] Scraping data for Fieldstone Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=85FD3DC2-B23A-4F65-A6D5-88B4748F8748 - INFO
+[2026-02-16 23:45:53] Running scrape_single_url.py for Fieldstone Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=85FD3DC2-B23A-4F65-A6D5-88B4748F8748 - INFO
+[2026-02-16 23:45:59] Successfully scraped and processed Fieldstone Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=85FD3DC2-B23A-4F65-A6D5-88B4748F8748 - SUCCESS
+[2026-02-16 23:45:59] Scraping data for Firefighters First Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3799D442-E132-494D-9271-CAF0F83DCD70 - INFO
+[2026-02-16 23:45:59] Running scrape_single_url.py for Firefighters First Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=3799D442-E132-494D-9271-CAF0F83DCD70 - INFO
+[2026-02-16 23:46:07] Successfully scraped and processed Firefighters First Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3799D442-E132-494D-9271-CAF0F83DCD70 - SUCCESS
+[2026-02-16 23:46:07] Scraping data for First American Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F3626724-9BF4-401B-B07F-10A1078C9D9A - INFO
+[2026-02-16 23:46:07] Running scrape_single_url.py for First American Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F3626724-9BF4-401B-B07F-10A1078C9D9A - INFO
+[2026-02-16 23:46:47] Successfully scraped and processed First American Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F3626724-9BF4-401B-B07F-10A1078C9D9A - SUCCESS
+[2026-02-16 23:46:47] Scraping data for First Eagle Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=8B3C5791-C16C-4B47-84A5-3F865802AECB - INFO
+[2026-02-16 23:46:47] Running scrape_single_url.py for First Eagle Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=8B3C5791-C16C-4B47-84A5-3F865802AECB - INFO
+[2026-02-16 23:47:26] Successfully scraped and processed First Eagle Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=8B3C5791-C16C-4B47-84A5-3F865802AECB - SUCCESS
+[2026-02-16 23:47:26] Scraping data for Five Star of Maryland Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C529D915-8CB6-4462-9233-604B6DF3CB59 - INFO
+[2026-02-16 23:47:26] Running scrape_single_url.py for Five Star of Maryland Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C529D915-8CB6-4462-9233-604B6DF3CB59 - INFO
+[2026-02-16 23:48:04] Successfully scraped and processed Five Star of Maryland Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C529D915-8CB6-4462-9233-604B6DF3CB59 - SUCCESS
+[2026-02-16 23:48:04] Scraping data for Florida A&M University Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=DE826C6A-D89F-4863-A430-1D6D59245BB4 - INFO
+[2026-02-16 23:48:04] Running scrape_single_url.py for Florida A&M University Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=DE826C6A-D89F-4863-A430-1D6D59245BB4 - INFO
+[2026-02-16 23:48:10] Successfully scraped and processed Florida A&M University Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=DE826C6A-D89F-4863-A430-1D6D59245BB4 - SUCCESS
+[2026-02-16 23:48:10] Reached max_scrapes_per_run limit of 20. Pausing for 2 minutes... - INFO
+[2026-02-16 23:50:10] Resuming scraping after pause. - INFO
+[2026-02-16 23:50:10] Scraping data for Fort Bragg Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3DC48A2C-EFAC-4682-A32A-0728D269CFCD - INFO
+[2026-02-16 23:50:10] Running scrape_single_url.py for Fort Bragg Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=3DC48A2C-EFAC-4682-A32A-0728D269CFCD - INFO
+[2026-02-16 23:50:15] Successfully scraped and processed Fort Bragg Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3DC48A2C-EFAC-4682-A32A-0728D269CFCD - SUCCESS
+[2026-02-16 23:50:15] Scraping data for Freedom of Maryland Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=EBACE7AF-6F14-42A6-9FC1-D1380F6E9A80 - INFO
+[2026-02-16 23:50:15] Running scrape_single_url.py for Freedom of Maryland Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=EBACE7AF-6F14-42A6-9FC1-D1380F6E9A80 - INFO
+[2026-02-16 23:50:49] Successfully scraped and processed Freedom of Maryland Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=EBACE7AF-6F14-42A6-9FC1-D1380F6E9A80 - SUCCESS
+[2026-02-16 23:50:49] Scraping data for Front Royal Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C0391878-2D80-4F1E-B5F5-0A1B4AB5A663 - INFO
+[2026-02-16 23:50:49] Running scrape_single_url.py for Front Royal Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C0391878-2D80-4F1E-B5F5-0A1B4AB5A663 - INFO
+[2026-02-16 23:50:56] Successfully scraped and processed Front Royal Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C0391878-2D80-4F1E-B5F5-0A1B4AB5A663 - SUCCESS
+[2026-02-16 23:50:56] Scraping data for Genesee Coop Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C2CF0F4D-7CFA-461D-9E0A-EBE80CC1C1BF - INFO
+[2026-02-16 23:50:56] Running scrape_single_url.py for Genesee Coop Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C2CF0F4D-7CFA-461D-9E0A-EBE80CC1C1BF - INFO
+[2026-02-16 23:51:30] Successfully scraped and processed Genesee Coop Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C2CF0F4D-7CFA-461D-9E0A-EBE80CC1C1BF - SUCCESS
+[2026-02-16 23:51:30] Scraping data for Gold Coast Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=53189796-EE2D-444C-B4CD-F4D7D260102F - INFO
+[2026-02-16 23:51:30] Running scrape_single_url.py for Gold Coast Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=53189796-EE2D-444C-B4CD-F4D7D260102F - INFO
+[2026-02-16 23:52:08] Successfully scraped and processed Gold Coast Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=53189796-EE2D-444C-B4CD-F4D7D260102F - SUCCESS
+[2026-02-16 23:52:08] Scraping data for Government Printing Office Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=2036C20B-8970-488B-9338-0B74ACC4122F - INFO
+[2026-02-16 23:52:08] Running scrape_single_url.py for Government Printing Office Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=2036C20B-8970-488B-9338-0B74ACC4122F - INFO
+[2026-02-16 23:52:18] Successfully scraped and processed Government Printing Office Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=2036C20B-8970-488B-9338-0B74ACC4122F - SUCCESS
+[2026-02-16 23:52:18] Scraping data for Greater Niagara Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=70832813-9C0B-462F-8671-5CC63EF5A51C - INFO
+[2026-02-16 23:52:18] Running scrape_single_url.py for Greater Niagara Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=70832813-9C0B-462F-8671-5CC63EF5A51C - INFO
+[2026-02-16 23:52:59] Successfully scraped and processed Greater Niagara Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=70832813-9C0B-462F-8671-5CC63EF5A51C - SUCCESS
+[2026-02-16 23:52:59] Scraping data for GSA Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=7BAD6EAD-27D6-435F-9A65-2499780C5307 - INFO
+[2026-02-16 23:52:59] Running scrape_single_url.py for GSA Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=7BAD6EAD-27D6-435F-9A65-2499780C5307 - INFO
+[2026-02-16 23:53:07] Successfully scraped and processed GSA Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=7BAD6EAD-27D6-435F-9A65-2499780C5307 - SUCCESS
+[2026-02-16 23:53:07] Scraping data for Guardians Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=2074FB0B-A552-425C-B60D-FD52A36A6C82 - INFO
+[2026-02-16 23:53:07] Running scrape_single_url.py for Guardians Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=2074FB0B-A552-425C-B60D-FD52A36A6C82 - INFO
+[2026-02-16 23:53:18] Successfully scraped and processed Guardians Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=2074FB0B-A552-425C-B60D-FD52A36A6C82 - SUCCESS
+[2026-02-16 23:53:18] Scraping data for Guthrie Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=95D089B8-52B8-41AB-BC22-950DFC44112F - INFO
+[2026-02-16 23:53:18] Running scrape_single_url.py for Guthrie Community Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=95D089B8-52B8-41AB-BC22-950DFC44112F - INFO
+[2026-02-16 23:53:26] Successfully scraped and processed Guthrie Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=95D089B8-52B8-41AB-BC22-950DFC44112F - SUCCESS
+[2026-02-16 23:53:26] Scraping data for Hampton Roads Educators Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=24223EF5-90EE-4A4A-BFB4-64DC4518FDE5 - INFO
+[2026-02-16 23:53:26] Running scrape_single_url.py for Hampton Roads Educators Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=24223EF5-90EE-4A4A-BFB4-64DC4518FDE5 - INFO
+[2026-02-16 23:54:05] Successfully scraped and processed Hampton Roads Educators Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=24223EF5-90EE-4A4A-BFB4-64DC4518FDE5 - SUCCESS
+[2026-02-16 23:54:05] Scraping data for HealthCare Associates Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F7B22BB1-FCBD-4A3D-A2C2-2BB655E300AC - INFO
+[2026-02-16 23:54:05] Running scrape_single_url.py for HealthCare Associates Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F7B22BB1-FCBD-4A3D-A2C2-2BB655E300AC - INFO
+[2026-02-16 23:54:43] Successfully scraped and processed HealthCare Associates Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F7B22BB1-FCBD-4A3D-A2C2-2BB655E300AC - SUCCESS
+[2026-02-16 23:54:43] Scraping data for Healthcare Employees Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3140EFB7-2704-4E63-BEAD-A9814BEA19FA - INFO
+[2026-02-16 23:54:43] Running scrape_single_url.py for Healthcare Employees Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=3140EFB7-2704-4E63-BEAD-A9814BEA19FA - INFO
+[2026-02-16 23:54:50] Successfully scraped and processed Healthcare Employees Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=3140EFB7-2704-4E63-BEAD-A9814BEA19FA - SUCCESS
+[2026-02-16 23:54:50] Scraping data for Healthcare Systems Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=38D63B97-52A9-4E49-8BA2-F996D6593E5C - INFO
+[2026-02-16 23:54:50] Running scrape_single_url.py for Healthcare Systems Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=38D63B97-52A9-4E49-8BA2-F996D6593E5C - INFO
+[2026-02-16 23:55:29] Successfully scraped and processed Healthcare Systems Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=38D63B97-52A9-4E49-8BA2-F996D6593E5C - SUCCESS
+[2026-02-16 23:55:29] Scraping data for Henrico Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=E9EAF897-7A7E-4BD2-AFA4-B1A156A354FB - INFO
+[2026-02-16 23:55:29] Running scrape_single_url.py for Henrico Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=E9EAF897-7A7E-4BD2-AFA4-B1A156A354FB - INFO
+[2026-02-16 23:55:39] Successfully scraped and processed Henrico Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=E9EAF897-7A7E-4BD2-AFA4-B1A156A354FB - SUCCESS
+[2026-02-16 23:55:39] Scraping data for High Desert Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F28967C7-C10C-48D8-9FA5-06EE08A74275 - INFO
+[2026-02-16 23:55:39] Running scrape_single_url.py for High Desert Community Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F28967C7-C10C-48D8-9FA5-06EE08A74275 - INFO
+[2026-02-16 23:56:22] Successfully scraped and processed High Desert Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F28967C7-C10C-48D8-9FA5-06EE08A74275 - SUCCESS
+[2026-02-16 23:56:22] Scraping data for Howard County Education Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7039C62-3DF5-4526-8399-5AC472FBCC88 - INFO
+[2026-02-16 23:56:22] Running scrape_single_url.py for Howard County Education Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=A7039C62-3DF5-4526-8399-5AC472FBCC88 - INFO
+[2026-02-16 23:57:02] Successfully scraped and processed Howard County Education Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=A7039C62-3DF5-4526-8399-5AC472FBCC88 - SUCCESS
+[2026-02-16 23:57:02] Scraping data for HUD Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=5DC4A4D9-D04E-4346-AA7A-E1C9E552EFCD - INFO
+[2026-02-16 23:57:02] Running scrape_single_url.py for HUD Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=5DC4A4D9-D04E-4346-AA7A-E1C9E552EFCD - INFO
+[2026-02-16 23:57:12] Successfully scraped and processed HUD Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=5DC4A4D9-D04E-4346-AA7A-E1C9E552EFCD - SUCCESS
+[2026-02-16 23:57:12] Scraping data for InFirst Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=E656227A-7812-43D9-B2D6-E0E6CADCD9C5 - INFO
+[2026-02-16 23:57:12] Running scrape_single_url.py for InFirst Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=E656227A-7812-43D9-B2D6-E0E6CADCD9C5 - INFO
+[2026-02-16 23:57:48] Successfully scraped and processed InFirst Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=E656227A-7812-43D9-B2D6-E0E6CADCD9C5 - SUCCESS
+[2026-02-16 23:57:48] Scraping data for IngersollRand Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=1811D9BF-694C-4ABA-8699-ADF35E81C7AB - INFO
+[2026-02-16 23:57:48] Running scrape_single_url.py for IngersollRand Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=1811D9BF-694C-4ABA-8699-ADF35E81C7AB - INFO
+[2026-02-16 23:57:57] Successfully scraped and processed IngersollRand Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=1811D9BF-694C-4ABA-8699-ADF35E81C7AB - SUCCESS
+[2026-02-16 23:57:57] Reached max_scrapes_per_run limit of 20. Pausing for 2 minutes... - INFO
+[2026-02-16 23:59:57] Resuming scraping after pause. - INFO
+[2026-02-16 23:59:57] Scraping data for Interior Federal for https://mortgages.cumortgage.net/default.asp?siteId=54990627-321E-441F-991E-998E4B5E0F20 - INFO
+[2026-02-16 23:59:57] Running scrape_single_url.py for Interior Federal via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=54990627-321E-441F-991E-998E4B5E0F20 - INFO
+[2026-02-17 00:00:36] Successfully scraped and processed Interior Federal for https://mortgages.cumortgage.net/default.asp?siteId=54990627-321E-441F-991E-998E4B5E0F20 - SUCCESS
+[2026-02-17 00:00:36] Scraping data for Jackson River Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=4C1C9653-2775-4B8A-92A8-856945F0CC1B - INFO
+[2026-02-17 00:00:36] Running scrape_single_url.py for Jackson River Community Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=4C1C9653-2775-4B8A-92A8-856945F0CC1B - INFO
+[2026-02-17 00:00:43] Successfully scraped and processed Jackson River Community Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=4C1C9653-2775-4B8A-92A8-856945F0CC1B - SUCCESS
+[2026-02-17 00:00:43] Scraping data for Jemez Valley Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=29CE38C6-B3EA-4BB4-8DC3-EAA8ECE5F932 - INFO
+[2026-02-17 00:00:43] Running scrape_single_url.py for Jemez Valley Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=29CE38C6-B3EA-4BB4-8DC3-EAA8ECE5F932 - INFO
+[2026-02-17 00:00:49] Successfully scraped and processed Jemez Valley Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=29CE38C6-B3EA-4BB4-8DC3-EAA8ECE5F932 - SUCCESS
+[2026-02-17 00:00:49] Scraping data for Kemba Roanoke Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F488BC1F-EBC0-4F58-A85F-9225873F164C - INFO
+[2026-02-17 00:00:49] Running scrape_single_url.py for Kemba Roanoke Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=F488BC1F-EBC0-4F58-A85F-9225873F164C - INFO
+[2026-02-17 00:00:53] Successfully scraped and processed Kemba Roanoke Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=F488BC1F-EBC0-4F58-A85F-9225873F164C - SUCCESS
+[2026-02-17 00:00:53] Scraping data for Labor Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=15875CEF-86CC-4F7E-B2EC-9D673FEFBE90 - INFO
+[2026-02-17 00:00:53] Running scrape_single_url.py for Labor Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=15875CEF-86CC-4F7E-B2EC-9D673FEFBE90 - INFO
+[2026-02-17 00:16:31] Starting to fetch credit union list... - INFO
+[2026-02-17 00:16:35] Fetched 123 unique credit unions. - INFO
+[2026-02-17 00:16:35] Scraping data for ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-17 00:16:35] Running scrape_single_url.py for ACT 1st Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-17 00:16:59] Starting to fetch credit union list... - INFO
+[2026-02-17 00:17:03] Fetched 123 unique credit unions. - INFO
+[2026-02-17 00:17:03] Scraping data for ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-17 00:17:03] Running scrape_single_url.py for ACT 1st Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - INFO
+[2026-02-17 00:17:12] Successfully scraped and processed ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - SUCCESS
+[2026-02-17 00:17:12] Reached max_scrapes_per_run limit of 1. Pausing for 2 minutes... - INFO
+[2026-02-17 00:20:44] Starting to fetch credit union list... - INFO
+[2026-02-17 00:20:57] Fetched 123 unique credit unions. - INFO
+[2026-02-17 00:20:57] Skipping already processed credit union: ACT 1st Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=19A8538A-275B-48C3-B178-135960E426A5 - SKIPPED
+[2026-02-17 00:20:57] Scraping data for Advantage Financial Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - INFO
+[2026-02-17 00:20:57] Running scrape_single_url.py for Advantage Financial Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - INFO
+[2026-02-17 00:21:09] Successfully scraped and processed Advantage Financial Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=89A7CB7E-CA50-420E-A902-A60DF2A870BD - SUCCESS
+[2026-02-17 00:21:09] Reached max_scrapes_per_run limit of 1. Pausing for 2 minutes... - INFO
+[2026-02-17 00:23:09] Resuming scraping after pause. - INFO
+[2026-02-17 00:23:09] Scraping data for AFLCIO Employees Federal Credit Union for https://mortgages.cumortgage.net/default.asp?siteId=C1F6DBB4-762D-4B27-9741-459D6025E2B2 - INFO
+[2026-02-17 00:23:09] Running scrape_single_url.py for AFLCIO Employees Federal Credit Union via subprocess for https://mortgages.cumortgage.net/default.asp?siteId=C1F6DBB4-762D-4B27-9741-459D6025E2B2 - INFO
+[2026-02-17 00:50:46] Starting to fetch credit union list... - INFO
+[2026-02-17 00:50:50] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 00:52:17] Starting to fetch credit union list... - INFO
+[2026-02-17 00:52:19] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 00:53:06] Starting to fetch credit union list... - INFO
+[2026-02-17 00:53:07] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 00:56:28] Starting to fetch credit union list... - INFO
+[2026-02-17 00:56:29] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 01:00:04] Starting to fetch credit union list... - INFO
+[2026-02-17 01:00:07] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 01:01:49] Starting to fetch credit union list... - INFO
+[2026-02-17 01:01:51] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 01:04:59] Starting to fetch credit union list... - INFO
+[2026-02-17 01:05:03] Failed to get credit union list. Aborting scraping. - ERROR
+[2026-02-17 01:08:40] Starting to fetch credit union list... - INFO
+[2026-02-17 01:08:41] Failed to get credit union list. Aborting scraping. - ERROR
