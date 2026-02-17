@@ -5,18 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Rates</title>
     <style>
-        body { font-family: sans-serif; margin: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            overflow: hidden; /* Ensures rounded corners apply to children */
+        }
+        th, td {
+            border: 1px solid #e0e6ed;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50; /* A pleasant green */
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.9em;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fcf9; /* Lighter shade for even rows */
+        }
+        tr:hover {
+            background-color: #e8f5e9; /* Light green on hover */
+            transition: background-color 0.3s ease;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
     </style>
 </head>
 <body>
-    <h1>Mortgage Rates</h1>
-    <table>
+    <div class="container">
+        <h1>Mortgage Rates</h1>
+        <table>
         <thead>
             <tr>
                 <th>CreditUnion</th>
