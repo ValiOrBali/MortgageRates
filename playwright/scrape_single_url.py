@@ -9,6 +9,7 @@ async def scrape_single_url(credit_union: str, url: str) -> dict:
     result = {'credit_union': credit_union, 'link': url, 'rates_30_years': "None", 'best_rate': "None", 'status': "ERROR", 'error_message': "Unknown error"}
 
     async with async_playwright() as p:
+        print(f"[Playwright] Launching browser for {url}", file=sys.stderr)
         browser = await p.chromium.launch(
             headless=True,
             args=[
@@ -24,8 +25,9 @@ async def scrape_single_url(credit_union: str, url: str) -> dict:
             ]
         )
         page = await browser.new_page()
+        print(f"[Playwright] New page created for {url}", file=sys.stderr)
         try:
-            print(f"[Playwright] Navigating to {url}", file=sys.stderr)
+            print(f"[Playwright] Going to URL: {url}", file=sys.stderr)
             await page.goto(url, wait_until="domcontentloaded", timeout=90000) # Increased timeout to 90 seconds
             print(f"[Playwright] Page loaded for {url}", file=sys.stderr)
             
@@ -39,17 +41,20 @@ async def scrape_single_url(credit_union: str, url: str) -> dict:
                 pass
 
             html_content = await page.content()
-            print(f"[Playwright] Got HTML content for {url}", file=sys.stderr)
+            print(f"[Playwright] Fetched HTML content for {url}", file=sys.stderr)
             
             if not html_content:
                 result['error_message'] = "No HTML content returned from Playwright"
                 return result
 
             try:
+                print(f"[BeautifulSoup] Parsing HTML for {url}", file=sys.stderr)
                 soup = BeautifulSoup(html_content, 'html.parser')
+                print(f"[BeautifulSoup] Finding #rate_box for {url}", file=sys.stderr)
                 rate_box = soup.find('div', id='rate_box')
                 
                 if rate_box:
+                    print(f"[BeautifulSoup] Found #rate_box. Iterating tables for {url}", file=sys.stderr)
                     all_extracted_rates_info = []
                     for table in rate_box.find_all('table', recursive=True):
                         caption_tag = table.find('caption')
@@ -57,6 +62,7 @@ async def scrape_single_url(credit_union: str, url: str) -> dict:
                             loan_type = caption_tag.text.strip()
                             loan_type = loan_type.replace(' - Conforming', '').replace(' - Jumbo', '').strip()
 
+                            print(f"[BeautifulSoup] Iterating rows for loan type '{loan_type}' for {url}", file=sys.stderr)
                             for row_data in table.find_all('tr'):
                                 interest_rate_span = row_data.find('span', class_="sr-only", string="Interest Rate")
                                 apr_span = row_data.find('span', class_="sr-only", string="APR")

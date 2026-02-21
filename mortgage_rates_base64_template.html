@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Rates</title>
+    <style>
+        body {{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }}
+        .container {{
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }}
+        h1 {{
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }}
+        .controls-container {{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }}
+        .search-input, .filter-select {{
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+            transition: border-color 0.3s ease;
+            width: 100%;
+            max-width: 250px;
+        }}
+        .search-input:focus, .filter-select:focus {{
+            border-color: #4CAF50;
+            outline: none;
+        }}
+        table {{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            overflow: hidden; 
+        }}
+        th, td {{
+            border: 1px solid #e0e6ed;
+            padding: 12px 15px;
+            text-align: left;
+        }}
+        th {{
+            background-color: #4CAF50; 
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.9em;
+            cursor: pointer; 
+        }}
+        th.sortable:hover {{
+            background-color: #3d8f41; 
+        }}
+        .asc::after {{
+            content: ' ▲';
+        }}
+        .desc::after {{
+            content: ' ▼';
+        }}
+        tr:nth-child(even) {{
+            background-color: #f8fcf9; 
+        }}
+        tr:hover {{
+            background-color: #e8f5e9; 
+            transition: background-color 0.3s ease;
+        }}
+        a {{
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }}
+        a:hover {{
+            text-decoration: underline;
+            color: #0056b3;
+        }}
+        /* Styles for the nested program table */
+        table.program-table {{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8em; 
+            margin: 0;
+        }}
+        table.program-table th, table.program-table td {{
+            border: none; 
+            padding: 4px 6px; 
+            text-align: left;
+        }}
+        table.program-table thead {{
+            background-color: #e6ffe6; 
+            font-weight: bold;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mortgage Rates</h1>
+        <div class="controls-container">
+            <input type="text" id="creditUnionSearch" class="search-input" placeholder="Search Credit Union...">
+            <select id="loanTypeFilter" class="filter-select">
+                <option value="all">All Loan Types</option>
+                <option value="arm">ARM</option>
+                <option value="conventional30">Conventional (30 Years)</option>
+                <option value="conventional20">Conventional (20 Years)</option>
+                <option value="conventional15">Conventional (15 Years)</option>
+                <option value="jumbo30">Jumbo (30 Years)</option>
+                <option value="jumbo15">Jumbo (15 Years)</option>
+            </select>
+        </div>
+        <table id="mortgageRatesTable">
+        <thead>
+            <tr>
+            <th>CreditUnion</th>
+            <th>Link</th>
+            <th>Programs</th>
+            <th class="sortable" data-sort-key="bestprogram30yr" id="bestProgram30yrHeader">Best Program (30 Year)</th>
+            <th class="sortable" data-sort-key="bestrate" id="bestRateHeader">BEST RATE</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script>
+        // Decode and parse the JSON data embedded by Python
+        const allCreditUnionsData = JSON.parse(decodeURIComponent("{json_data_for_js_encoded}"));
+    </script>
+    <script src="mortgage_rates_logic.js"></script>
+</body>
+</html>
